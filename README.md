@@ -35,7 +35,7 @@ The deep learning model was fine-tuned and trained on a carefully curated and au
 
 ## 🎓 Project & Author Information
 
-This project is a Graduation Thesis from the Faculty of Advanced Education, majoring in Computer Engineering & Technology, at **Ho Chi Minh City University of Technology and Education (HCMUTE)**.
+This project is a Graduation Thesis from the Faculty of Advanced Education, majoring in Computer Engineering & Technology, at **Ho Chi Minh City University of Technology and Engineering (HCM-UTE)**.
 
 * **Student Developers:** Trinh Le Minh Hieu and Huynh Tan Phat.
 * **Advisor:** PhD. Huynh The Thien.
