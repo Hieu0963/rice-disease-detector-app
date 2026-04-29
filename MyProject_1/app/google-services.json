@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "502759921092",
+    "project_id": "rice-leaf-doctor",
+    "storage_bucket": "rice-leaf-doctor.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502759921092:android:166bf4976a85677e970091",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpX200m2lzzep2RhtDsW0B1MXDufYEovA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

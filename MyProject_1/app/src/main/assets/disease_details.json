@@ -1,0 +1,54 @@
+{
+  "Bacterial Leaf Blight": {
+    "symptoms_vi": "Triệu chứng ban đầu là các sọc hoặc vệt màu xanh xám, úng nước ở rìa lá. Dần dần, các vệt này lớn lên, có màu vàng hoặc trắng xám. Vào buổi sáng sớm, có thể thấy các giọt dịch vi khuẩn màu vàng đục ở vết bệnh.",
+    "symptoms_en": "Initial symptoms are water-soaked, grayish-green streaks or stripes on the leaf margins. Gradually, these streaks enlarge, turning yellow or grayish-white. In the early morning, milky-yellow bacterial ooze droplets can be seen on the lesions.",
+    "warning_vi": "Bệnh lây lan rất nhanh qua nước (tưới, mưa) và gió, đặc biệt trong điều kiện thời tiết ấm và ẩm. Có thể gây thất thu năng suất nghiêm trọng nếu không được kiểm soát.",
+    "warning_en": "The disease spreads very rapidly through water (irrigation, rain) and wind, especially in warm and humid weather. Can cause severe yield losses if not controlled.",
+    "action_vi": "Quản lý nước ruộng hợp lý, tránh để ruộng bị ngập úng. Bón phân cân đối, không bón thừa đạm. Sử dụng các loại thuốc trừ khuẩn có chứa hoạt chất như: Bismerthiazol, Oxolinic acid...",
+    "action_en": "Manage field water appropriately, avoiding flooding. Apply balanced fertilization, do not over-apply nitrogen. Use bactericides containing active ingredients such as: Bismerthiazol, Oxolinic acid..."
+  },
+  "Brown Spot": {
+    "symptoms_vi": "Vết bệnh ban đầu là những chấm nhỏ, tròn, màu nâu sẫm, có quầng vàng xung quanh. Khi lớn lên, vết bệnh có hình bầu dục, tâm màu xám tro hoặc trắng, viền màu nâu sẫm.",
+    "symptoms_en": "Initial lesions are small, circular, dark brown spots with a yellow halo. As they enlarge, the spots become oval with a grayish-white center and a dark brown border.",
+    "warning_vi": "Bệnh thường phát triển mạnh ở những ruộng nghèo dinh dưỡng, thiếu kali, hoặc bị phèn. Bệnh làm giảm khả năng quang hợp, khiến hạt bị lép, lửng.",
+    "warning_en": "The disease often thrives in nutrient-poor, potassium-deficient, or acidic sulfate soils. It reduces photosynthetic capacity, leading to unfilled or partially filled grains.",
+    "action_vi": "Bón phân cân đối, đặc biệt chú ý bón đủ kali. Cải thiện đất nếu bị phèn. Phun thuốc phòng trừ nấm có hoạt chất như: Propiconazole, Azoxystrobin, Mancozeb...",
+    "action_en": "Apply balanced fertilization, paying special attention to potassium. Improve soil if it is acidic. Spray fungicides with active ingredients such as: Propiconazole, Azoxystrobin, Mancozeb..."
+  },
+  "Leaf Blast": {
+    "symptoms_vi": "Vết bệnh điển hình có hình thoi (mắt én), tâm màu xám trắng, viền màu nâu sẫm, xung quanh có quầng vàng. Các vết bệnh có thể liên kết với nhau làm cháy khô cả lá.",
+    "symptoms_en": "Typical lesions are spindle-shaped (eye-shaped), with a grayish-white center, a dark brown border, and a yellow halo. Lesions can coalesce, causing the entire leaf to dry out.",
+    "warning_vi": "Đây là một trong những bệnh hại lúa nguy hiểm nhất. Bệnh lây lan nhanh qua không khí. Nguy cơ gây bệnh cao khi trời mát, ẩm độ cao, và bón thừa đạm.",
+    "warning_en": "This is one of the most destructive diseases of rice. It spreads rapidly through the air. The risk of disease is high under cool, high-humidity conditions, and with excessive nitrogen application.",
+    "action_vi": "Sử dụng giống kháng bệnh. Bón phân cân đối, tránh bón thừa đạm. Phun thuốc đặc trị có hoạt chất Tricyclazole, Isoprothiolane...",
+    "action_en": "Use resistant varieties. Apply balanced fertilization, avoid excessive nitrogen. Spray specific fungicides with active ingredients like Tricyclazole, Isoprothiolane..."
+  },
+   "Healthy Rice Leaf": {
+    "symptoms_vi": "Lá lúa có màu xanh tươi sáng, bề mặt láng mịn, không có vết đốm, vết sọc hay dấu hiệu bất thường nào.",
+    "symptoms_en": "The rice leaves are bright green, smooth surface, without any spots, streaks, or abnormal signs.",
+    "warning_vi": "Cây lúa đang phát triển tốt. Cần duy trì chế độ chăm sóc hợp lý để bảo vệ sức khỏe cây trồng.",
+    "warning_en": "The rice plant is growing well. Maintain proper care to protect plant health.",
+    "action_vi": "Tiếp tục theo dõi đồng ruộng thường xuyên. Duy trì bón phân cân đối và quản lý nước phù hợp theo từng giai đoạn sinh trưởng.",
+    "action_en": "Continue to monitor the field regularly. Maintain balanced fertilization and appropriate water management for each growth stage."
+  },
+  "Leaf scald": {
+    "symptoms_vi": "Vết bệnh bắt đầu từ chóp lá hoặc mép lá, lan dần vào trong tạo thành mảng lớn hình gợn sóng. Vùng bị bệnh chuyển màu nâu nhạt hoặc xám, có viền màu nâu đậm ngăn cách với phần xanh.",
+    "symptoms_en": "Lesions start from the leaf tip or margins, spreading inwards to form large, wave-like patches. The infected area turns light brown or gray, with a dark brown border separating it from the green part.",
+    "warning_vi": "Bệnh thường xuất hiện vào giai đoạn đòng trổ đến chín. Gây hại nặng làm lá lúa khô cháy sớm, hạt bị lép lửng.",
+    "warning_en": "The disease usually appears from the booting to ripening stages. Severe infection causes early leaf drying and unfilled grains.",
+    "action_vi": "Bón phân cân đối, không bón thừa đạm. Phun các loại thuốc trừ nấm phổ rộng khi bệnh chớm xuất hiện như Carbendazim, Benomyl...",
+    "action_en": "Apply balanced fertilization, avoid excessive nitrogen. Spray broad-spectrum fungicides like Carbendazim, Benomyl when the disease first appears..."
+  },
+  "Sheath Blight": {
+    "symptoms_vi": "Vết bệnh xuất hiện ở bẹ lá gần mặt nước, hình bầu dục màu xám trắng, viền nâu. Bệnh lan dần lên trên làm khô vằn các bẹ lá và lá, khiến cây lúa bị lụi.",
+    "symptoms_en": "Lesions appear on leaf sheaths near the water line, oval-shaped, grayish-white with brown borders. The disease spreads upwards, causing blight on sheaths and leaves, leading to plant wilting.",
+    "warning_vi": "Bệnh phát triển mạnh trong điều kiện nóng ẩm, gieo sạ dày và bón thừa đạm. Gây đổ ngã và lem lép hạt.",
+    "warning_en": "The disease thrives in hot, humid conditions, dense planting, and excessive nitrogen. It causes lodging and grain discoloration.",
+    "action_vi": "Vệ sinh đồng ruộng, sạ thưa hợp lý. Giảm bón đạm khi bệnh xuất hiện. Phun thuốc đặc trị như Validamycin, Hexaconazole...",
+    "action_en": "Clean the field, plant at appropriate density. Reduce nitrogen when disease appears. Spray specific fungicides like Validamycin, Hexaconazole..."
+  },
+  "important_notes": {
+    "notes_vi": "Một số lưu ý quan trọng bổ sung Phân biệt thuốc: • Thuốc trị nấm (Đạo ôn, Đốm nâu, Khô vằn...) thường không trị được vi khuẩn (Bạc lá) và ngược lại. • Nếu ruộng bị cả nấm và vi khuẩn, cần phối hợp thuốc hoặc dùng loại đa năng. Nguyên tắc '4 Đúng' khi phun thuốc: • Đúng thuốc. • Đúng lúc. • Đúng nồng độ/liều lượng. • Đúng cách.",
+    "notes_en": "Additional Important Notes Chemical Differentiation: • Fungicides (Blast, Brown Spot, Sheath Blight...) are generally ineffective against bacteria (Leaf Blight) and vice versa. • If mixed infection occurs, combine treatments. The \"4 Right\" Principle: • Right chemical. • Right timing. • Right dosage. • Right method."
+  }
+}

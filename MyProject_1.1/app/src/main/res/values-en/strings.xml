@@ -1,0 +1,62 @@
+<resources>
+    <!-- Update app name here -->
+    <string name="app_name">Rice Leaf Doctor</string>
+    
+    <string name="selected_image_description">Selected image</string>
+    <string name="pick_image">Pick Image</string>
+    <string name="predict">Predict</string>
+    <string name="result_here">Result will be shown here</string>
+    <string name="image_selected_ready">Image selected, ready to predict!</string>
+    <string name="no_image_selected">No image selected.</string>
+    <string name="app_title">Rice Leaf Doctor 🌾</string>
+    <string name="model_ready">✅ Model is ready!</string>
+    <string name="model_load_error">❌ Error loading model: %1$s</string>
+    <string name="select_image_before_predicting">Please select an image first.</string>
+    <string name="processing_image">Processing image...</string>
+    <string name="unknown_result">Unknown</string>
+    <string name="result_format">🌿 Result: %1$s\n📊 Confidence: %2$s%% (%3$s)\n⏱️ Time: %4$s ms</string>
+    <string name="no_object_detected">No object detected.</string>
+    <string name="model_processing_error">❌ Error processing model: %1$s</string>
+    <string name="change_language">Change Language</string>
+    <string name="language_en">English</string>
+    <string name="language_vi">Tiếng Việt</string>
+    <string name="hint_capture">🌿 Tip: Capture 70% of the leaf in frame, good lighting, plain background.</string>
+    <string name="history">History</string>
+    <string name="history_placeholder">History list will be shown here</string>
+    <string name="app_info_title">App Info</string>
+    <string name="app_info_message">Rice Leaf Doctor\nVersion: 1.0\nAuthor: Dev Team\nContact: support@riceleaf.com</string>
+    <string name="label_disease">Disease</string>
+    <string name="label_confidence">Confidence</string>
+    <string name="delete_title">Delete History</string>
+    <string name="delete_message">Are you sure you want to delete %1$d selected items?</string>
+    <string name="delete_confirm">Delete</string>
+    <string name="delete_cancel">Cancel</string>
+    <string name="view_detail">View Detail ></string>
+    <string name="detail_symptoms">Symptoms</string>
+    <string name="detail_warning">Warning</string>
+    <string name="detail_action">Immediate Action</string>
+    <string name="detail_important_notes">Important Notes</string>
+    
+    <!-- Updated disease names based on new labels.txt -->
+    <string name="disease_bacterial_leaf_blight">Bacterial Leaf Blight</string>
+    <string name="disease_brown_spot">Brown Spot</string>
+    <string name="disease_healthy_leaf">Healthy Leaf</string>
+    <string name="disease_leaf_blast">Leaf Blast</string>
+    <string name="disease_tungro_virus">Tungro Virus</string>
+
+    <string name="conf_high">High</string>
+    <string name="conf_medium">Medium</string>
+    <string name="conf_low">Low</string>
+    <string name="recommendation_medium_confidence">💡 Recommendation: Take 1–2 more photos to confirm.</string>
+    <string name="warning_low_confidence">⚠️ Warning: Low confidence. The result may be inaccurate. Please take a clearer photo.</string>
+
+    <!-- Chuỗi cho hộp thoại chọn nguồn ảnh -->
+    <string name="source_title">Select Image Source</string>
+    <string name="source_camera">Camera</string>
+    <string name="source_gallery">Gallery</string>
+    
+    <!-- Sync Status -->
+    <string name="status_synced">Synced</string>
+    <string name="status_not_synced">Not Synced (Offline)</string>
+
+</resources>

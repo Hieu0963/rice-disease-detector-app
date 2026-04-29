@@ -1,0 +1,12 @@
+<resources>
+    <!-- Chủ đạo xanh nông nghiệp (giữ nguyên hoặc tối hơn một chút) -->
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#A5D6A7</color>
+
+    <!-- Text & nền cho Dark Mode -->
+    <color name="colorTextPrimary">#FFFFFF</color> 
+    <color name="colorTextOnPrimary">#FFFFFF</color>
+    <color name="bgTop">#121212</color>
+    <color name="bgBottom">#1E1E1E</color>
+</resources>

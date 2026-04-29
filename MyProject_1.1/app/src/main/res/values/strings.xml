@@ -1,0 +1,64 @@
+<resources>
+    <!-- Đổi tên app tại đây -->
+    <string name="app_name">Rice Leaf Doctor</string>
+    
+    <string name="selected_image_description">Selected image</string>
+    <string name="pick_image">Chọn ảnh</string>
+    <string name="predict">Nhận diện</string>
+    <string name="result_here">Kết quả sẽ hiển thị tại đây</string>
+    <string name="image_selected_ready">Ảnh đã được chọn, sẵn sàng nhận diện!</string>
+    <string name="no_image_selected">Chưa chọn ảnh nào.</string>
+    <string name="app_title">Rice Leaf Doctor 🌾</string>
+    <string name="model_ready">✅ Mô hình đã sẵn sàng!</string>
+    <string name="model_load_error">❌ Lỗi khi tải mô hình: %1$s</string>
+    <string name="select_image_before_predicting">Vui lòng chọn ảnh trước khi dự đoán.</string>
+    <string name="processing_image">Đang xử lý ảnh...</string>
+    <string name="unknown_result">Không xác định</string>
+    <!-- Sử dụng \n để xuống dòng rõ ràng -->
+    <string name="result_format">🌿 Kết quả: %1$s\n📊 Độ tin cậy: %2$s%% (%3$s)\n⏱️ Thời gian suy luận: %4$s ms</string>
+    <string name="no_object_detected">Không phát hiện được vật thể nào.</string>
+    <string name="model_processing_error">❌ Lỗi khi xử lý mô hình: %1$s</string>
+    <string name="change_language">Đổi ngôn ngữ</string>
+    <string name="language_en">English</string>
+    <string name="language_vi">Tiếng Việt</string>
+    <string name="hint_capture">🌿 Mẹo: Chụp lá lúa chiếm 70% khung, đủ sáng, nền trơn.</string>
+    <string name="history">Lịch sử</string>
+    <string name="history_placeholder">Danh sách lịch sử sẽ hiển thị tại đây</string>
+    <string name="app_info_title">Thông tin ứng dụng</string>
+    <string name="app_info_message">Rice Leaf Doctor\nPhiên bản: 1.0\nTác giả: Nhóm phát triển\nLiên hệ: support@riceleaf.com</string>
+    <string name="label_disease">Bệnh</string>
+    <string name="label_confidence">Độ tin cậy</string>
+    <string name="delete_title">Xóa lịch sử</string>
+    <string name="delete_message">Bạn có chắc chắn muốn xóa %1$d mục đã chọn?</string>
+    <string name="delete_confirm">Xóa</string>
+    <string name="delete_cancel">Hủy</string>
+    <string name="view_detail">Xem chi tiết ></string>
+    <string name="detail_symptoms">Dấu hiệu nhận biết</string>
+    <string name="detail_warning">Cảnh báo</string>
+    <string name="detail_action">Hành động ngay</string>
+    <string name="detail_important_notes">Lưu ý quan trọng</string>
+    
+    <!-- Cập nhật tên bệnh theo labels.txt mới -->
+    <string name="disease_bacterial_leaf_blight">Bệnh Bạc lá (Cháy bìa lá)</string>
+    <string name="disease_brown_spot">Bệnh Đốm nâu (Bệnh Tiêm lửa)</string>
+    <string name="disease_healthy_leaf">Lá lúa khỏe mạnh</string>
+    <string name="disease_leaf_blast">Bệnh Đạo ôn lá(Bệnh Cháy lá)</string>
+    <string name="disease_tungro_virus">Bệnh vàng lụi (Bệnh Tungro)</string>
+
+    <!-- Chuỗi cho mức độ tin cậy -->
+    <string name="conf_high">Cao</string>
+    <string name="conf_medium">Trung bình</string>
+    <string name="conf_low">Thấp</string>
+    <string name="recommendation_medium_confidence">💡 Khuyến nghị: Nên chụp thêm 1–2 ảnh để xác nhận.</string>
+    <string name="warning_low_confidence">⚠️ Cảnh báo: Độ tin cậy thấp. Kết quả có thể không chính xác. Vui lòng chụp lại ảnh rõ nét hơn.</string>
+
+    <!-- Chuỗi cho hộp thoại chọn nguồn ảnh -->
+    <string name="source_title">Chọn nguồn ảnh</string>
+    <string name="source_camera">Chụp ảnh</string>
+    <string name="source_gallery">Chọn từ thư viện</string>
+    
+    <!-- Sync Status -->
+    <string name="status_synced">Đã đồng bộ</string>
+    <string name="status_not_synced">Chưa đồng bộ (Offline)</string>
+
+</resources>

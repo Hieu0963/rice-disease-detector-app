@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Đường dẫn cho internal cache (cacheDir) -->
+    <cache-path name="my_images" path="." />
+    <!-- Đường dẫn cho external cache (externalCacheDir) - giữ lại để dự phòng -->
+    <external-cache-path name="external_images" path="." />
+</paths>

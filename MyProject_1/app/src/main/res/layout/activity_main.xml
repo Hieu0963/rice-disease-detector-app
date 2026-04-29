@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_rice">
+
+    <!-- Lớp phủ mờ để làm dịu nền -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_overlay" />
+
+    <!-- Toàn bộ nội dung chính -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- 🔹 Thanh tiêu đề -->
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#4CAF50"
+            android:elevation="6dp"
+            app:contentInsetStart="0dp"
+            app:contentInsetStartWithNavigation="0dp">
+
+            <!-- Sử dụng LinearLayout ngang để chứa Icon và Tên App -->
+            <!-- Thêm paddingStart để icon không dính sát mép màn hình -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="12dp">
+
+                <!-- Icon App (Đã được bo tròn bằng CardView) -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="0dp"
+                    app:cardBackgroundColor="@android:color/transparent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/app_logo"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@null" />
+                </androidx.cardview.widget.CardView>
+
+                <!-- Tên App -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:text="@string/app_title"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:maxLines="1"
+                    android:ellipsize="end" />
+            </LinearLayout>
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+        <!-- 🔹 Phần nội dung chính -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <!-- 🖼️ Khung ảnh -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/card_bg"
+                    android:elevation="6dp"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:scaleType="centerCrop"
+                        android:background="#EEEEEE"
+                        android:contentDescription="@string/app_name" />
+                </LinearLayout>
+
+                <!-- 💬 Gợi ý chụp ảnh -->
+                <TextView
+                    android:id="@+id/tvHint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/hint_capture"
+                    android:textColor="@android:color/white"
+                    android:textStyle="italic"
+                    android:gravity="center" />
+
+                <!-- 🔘 Hai nút chức năng -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <!-- Nút chọn ảnh -->
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnPick"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="8dp"
+                        android:text="@string/pick_image"
+                        android:textColor="@android:color/white"
+                        android:backgroundTint="#4CAF50"
+                        app:icon="@drawable/ic_photo"
+                        app:iconTint="@android:color/white"
+                        app:iconPadding="8dp" />
+
+                    <!-- Nút dự đoán -->
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnPredict"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/predict"
+                        android:textColor="@android:color/white"
+                        android:backgroundTint="#4CAF50"
+                        app:icon="@drawable/ic_search"
+                        app:iconTint="@android:color/white"
+                        app:iconPadding="8dp" />
+                </LinearLayout>
+
+                <!-- Hàng chứa Lịch sử (trái) và Thông tin (phải) -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp">
+
+                    <!-- 🔹 ICON 3 CHẤM (LỊCH SỬ) -->
+                    <LinearLayout
+                        android:id="@+id/btnHistory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_alignParentStart="true"
+                        android:background="?attr/selectableItemBackground"
+                        android:padding="4dp">
+
+                        <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:src="@drawable/ic_more_horiz"
+                            app:tint="#FFFFFF" />
+
+                        <!-- Text chú thích nhỏ bên cạnh -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/history"
+                            android:textColor="#FFFFFF"
+                            android:textStyle="italic"
+                            android:textSize="12sp"
+                            android:layout_marginStart="4dp"/>
+                    </LinearLayout>
+
+                    <!-- 🔹 ICON INFO (GÓC PHẢI) -->
+                    <LinearLayout
+                        android:id="@+id/btnInfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_alignParentEnd="true"
+                        android:background="?attr/selectableItemBackground"
+                        android:padding="4dp">
+
+                        <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:src="@drawable/ic_info"
+                            app:tint="#FFFFFF" />
+                        
+                        <!-- (Tùy chọn) Chú thích cho nút info -->
+                         <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Info"
+                            android:textColor="#FFFFFF"
+                            android:textStyle="italic"
+                            android:textSize="12sp"
+                            android:layout_marginStart="4dp"/>
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <!-- 📊 Kết quả nhận diện -->
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/card_bg"
+                    android:elevation="6dp"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/result_here"
+                        android:textColor="#212121"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"/>
+                        
+                    <TextView
+                        android:id="@+id/btnViewDetail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/view_detail"
+                        android:textColor="#1976D2"
+                        android:textStyle="bold"
+                        android:layout_marginTop="12dp"
+                        android:padding="4dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:visibility="gone" 
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>

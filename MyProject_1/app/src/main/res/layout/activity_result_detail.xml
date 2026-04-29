@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?android:attr/colorBackground">
+
+    <!-- Header -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbarDetail"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/colorTextOnPrimary" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Tên bệnh -->
+            <TextView
+                android:id="@+id/tvDetailDiseaseName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disease Name"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="?android:attr/textColorPrimary" />
+
+            <!-- Độ chính xác -->
+            <TextView
+                android:id="@+id/tvDetailConfidence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confidence"
+                android:textSize="16sp"
+                android:textColor="?android:attr/textColorSecondary"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Dấu hiệu -->
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_symptoms"
+                android:textColor="?android:attr/textColorPrimary"
+                android:layout_marginTop="16dp" />
+            <TextView
+                android:id="@+id/tvDetailSymptoms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?android:attr/textColorPrimary"
+                android:layout_marginTop="4dp"/>
+
+            <!-- Cảnh báo -->
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_warning"
+                android:textColor="?android:attr/textColorPrimary"
+                android:layout_marginTop="16dp" />
+            <TextView
+                android:id="@+id/tvDetailWarning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?android:attr/textColorPrimary"
+                android:layout_marginTop="4dp"/>
+
+            <!-- Hành động -->
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_action"
+                android:textColor="?android:attr/textColorPrimary"
+                android:layout_marginTop="16dp" />
+            <TextView
+                android:id="@+id/tvDetailAction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?android:attr/textColorPrimary"
+                android:layout_marginTop="4dp"/>
+                
+            <!-- Lưu ý bổ sung -->
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_important_notes"
+                android:textColor="?android:attr/textColorPrimary"
+                android:layout_marginTop="16dp" />
+            <TextView
+                android:id="@+id/tvDetailNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?android:attr/textColorPrimary"
+                android:layout_marginTop="4dp"/>
+                
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
